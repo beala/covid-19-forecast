@@ -1,4 +1,6 @@
 # COVID-19 Pandemic Forecast
+by [Alex Beal](https://twitter.com/beala) and [Nick Vanderweit](https://twitter.com/nvanderw)
+
 We are non-experts with an interest in forecasting world events. Our approach is to first determine a prior probability given past events, and update that probability with current evidence. The calculations below use the odds form of Bayes’ theorem.
 # Definition of pandemic
 We define a coronavirus pandemic as an event where > 10% of the world is infected by coronavirus before 2022. In this forecast, we focus on how prevalent we believe the coronavirus outbreak will become, although we use the estimated fatality rate to make some estimates about prevalence.
@@ -83,7 +85,8 @@ While we would expect to see a flurry of research into such avenues regardless o
 [One report](https://academic.oup.com/biostatistics/article/20/2/273/4817524) estimates that 9.6% of Phase 1 trials will eventually be deemed safe and effective. There are > 120 clinical trials happening for COVID-19, so it is possible that some of the treatments will be effective. However, we have reasons to suspect that the success rate of these trials will be lower than standard Phase 1 base rates. Due to the desperate situation in China, where the vast majority of these trials are happening, it is plausible that many clinical trials are being conducted that would not have advanced to the clinical trial stage in other circumstances. Hence we should expect a lower probability that a given trial will succeed here, assuming say 1%. Additionally, for this to reduce the chance of pandemic, the successful trial would have to be a treatment that slows or stops the spread. The treatment would have to be manufactured on a large scale and distributed to many countries with varying quality of healthcare infrastructure, and the trials, manufacture, and distribution would have to happen before the outbreak of a pandemic in order to prevent one from occurring.
 
 Given that, in the H1N1 case, it was mere months between the first outbreaks outside of Mexico and declarations of pandemic, we think it’s very unlikely that a given treatment will arrive in time to prevent pandemic. **Our Bayesian update for this is 99:100.**
-Posterior probability
+
+# Posterior Probability
 
 | Prior odds | 5:4 | 2:1 | 1:2 |
 |--|--|--|--|
