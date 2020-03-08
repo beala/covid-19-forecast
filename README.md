@@ -32,37 +32,41 @@ There has also been concern about what time range to consider, especially given 
 **Our priors range from 1:2 at the low end to 2:1 at the high end.**
 
 # Evidence for pandemic
+
+## Global spread of COVID-19 cases
+In the last update, there were only 18 confirmed cases in Iran. We predicted 400 to 1,300 total cases on February 22nd based on the ratio of confirmed deaths to confirmed cases. Over time, [the ratio of deaths to confirmed cases](http://share.usrsb.in/covid19/#deaths_confirmed_ratio_vs_time.png) has dropped.
+As of March 8th, [the WHO has confirmed](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200308-sitrep-48-covid-19.pdf?sfvrsn=16f7ccef_4) 5,823 cases in Iran with 145 deaths, a CFR of around 2.5%, which is more in line with reports from other countries. This suggests that detection efforts have ramped up in Iran and they are catching up to the scale of the community spread.
+
+![Ratio of deaths to confirmed cases in Iran](iran_ratio_deaths_to_cases.png)
+
+Since the last update on Feb 22nd, cases have grown worldwide, especially in South Korea, Japan, Italy, and Iran.
+
+![WHO epidemic curve outside of China](who-outside-china-20200308.png)
+
+From February 22nd to March 8th, confirmed cases outside of China have grown from 1,402 to 24,727. Deaths outside of China have grown from 11 to 484.
+
+The number of countries reporting at least one case, at least ten cases, and at least a hundred cases are growing.
+
+![Countries by case number bucket](countries_reporting_cases.png)
+
+The number of countries reporting more new cases day-over-day is increasing. These are countries where the number of new cases on a given day is greater than the number of new cases on the previous day.
+
+![Countries with more new cases day-over-day](new-cases-day-over-day.png)
+
+The contagion is now worldwide and there is more than an order of magnitude more cases, which should increase our credence that it will become a global pandemic as defined in this forecast.
+
+**TODO: put an update on this.**
+
 ## Undetected cases
-[Air travel data suggests that there are countries with a substantial number of undetected imported cases.](https://docs.google.com/spreadsheets/d/1-HieY7joEv0ngoBjrzVoRNGoiQMty3T_Jon7k9xfF2Q) Cambodia, for example, has a similar amount of air travel from affected areas as compared to Singapore, but only has 1 confirmed case compared to Singapore’s 22 confirmed importations. Thailand has about 4 times as much air travel from China as Singapore, but has only 23 imported cases, where we would expect around 92. If these undetected importations are causing undetected outbreaks, it may be impossible to contract trace and quarantine the ill and contain the virus.
+Based on air travel estimates and Iran's extremely high reported CFRs, we previously believed there was evidence of undetected transmission. Since then the evidence has grown that even developed countries are not adequately detecting the spread of COVID-19. A research team led by Trevor Bedford [identified a single transmission chain](https://bedford.io/blog/ncov-cryptic-transmission/) that is estimated to have infected 570 people in Washington state. As of March 7th, the CDC had reportedly tested [1,583 people *total*](https://thehill.com/homenews/administration/486452-cdc-has-tested-1583-people-for-coronavirus), while South Korea has been testing roughly [10,000 people *per day*](https://www.cdc.go.kr/board/board.es?mid=&bid=0030). It has become clear that there are vast disparities between even developed countries in their ability to monitor the spread of COVID-19. We infer:
 
-### February 22 Update
-There have been 18 confirmed cases and 4 deaths in Iran. [WHO estimates](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200222-sitrep-33-covid-19.pdf) the Infection Fatality Ratio to be in the range 0.3%-1%. Applied to Iran, this yields between 400 and 1,300 total cases. If all cases were known, the official numbers would suggest an implausibly high 4/18 ~= 22% IFR. This suggests orders of magnitude more unconfirmed cases than confirmed.
+1. That the number of confirmed cases reported by the WHO most likely significantly understates the spread of COVID-19.
+2. Lack of effective diagnostics will make it more difficult for countries to identify and respond to hotspots.
+3. Even if some countries like South Korea are able to effectively scale up their efforts to diagnose and contain the spread of COVID-19, they are still imperiled by a global spread of the disease in countries less able to respond.
 
-The WHO has claimed that the outbreak in Iran has not been successfully traced back to China. It’s not entirely clear to us what this implies, but it would be consistent with:
-
-1. Cases spread from China to Iran directly, but many of the infected Iranians were not detected.
-2. Cases spread undetected from an intermediate country.
-
-Given the relatively low number of expected importations from China to Iran, case (1) implies higher numbers of importations to many other countries including Thailand, Japan, South Korea, Taiwan and the United States. For instance, the import rate to the Philippines is roughly an order of magnitude higher than to Iran, so case (1) implies many undetected cases around the world.
-
-Case (2) also implies an outbreak in whatever intermediate country the virus was imported from. For instance, Iran’s largest trading partner for imports is the United Arab Emirates, which has almost 5 times the importation risk from China that Iran does, and has recently detected cases tracing back to China.
-
-The aforementioned [WHO situation report](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200222-sitrep-33-covid-19.pdf) shows a sharp increase in cases outside of China, with few new cases originating in China. Two new countries (Lebanon and Israel) are reporting COVID-19 cases.
-
-Relevant studies:
-- [Report 6: Relative sensitivity of international surveillance](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College---COVID-19---Relative-Sensitivity-International-Cases.pdf): "we estimated that about two thirds of COVID-19 cases exported from mainland China have remained undetected worldwide, potentially resulting in multiple chains of as yet undetected human-to-human transmission outside mainland China."
-- [Using predicted imports of 2019-nCoV cases to determine locations that may not be identifying all imported cases](https://www.medrxiv.org/content/10.1101/2020.02.04.20020495v2): This study flags Indonesia, Cambodia, and Thailand as places at risk of having undetected importations.
-- [Undetected cases are likely in countries around the world, with greater risk in countries of low detection capacity and high connectivity to the epicenter of the outbreak](https://www.medrxiv.org/content/10.1101/2020.02.13.20022707v2): “Undetected cases are likely in countries around the world, with greater risk in countries of low detection capacity and high connectivity to the epicenter of the outbreak.”
-- [2019 Novel Coronavirus Global Risk Assessment](http://rocs.hu-berlin.de/corona/): Up to date numbers of relative import risk based on air travel data.
-
-**We believe this is strong evidence in favor of an eventual pandemic. This updates our prior 4:1.**
+**TODO: put an update on this.**
 
 # Evidence against pandemic
-## No large outbreaks outside of China
-With the exception of the Diamond Princess cruise ship, there have been no large outbreaks outside of China. This is promising, but we believe this is consistent with the possibility that outbreaks are occuring undetected. It has only been 27 days since Singapore’s first detected importation. If undetected importations started occurring at about the same time in other countries, it’s possible they are still small enough to fly under the radar given the incubation period of 7 days and an R0 of 2.5.
-
-**That said, this provides some evidence that the virus is being contained. This updates our prior 3:4.**
-
 ## The outbreak in China may be peaking
 The official numbers coming out of China suggest that the outbreak inside China may be peaking. If an outbreak inside China can be contained, that’s a signal that China’s tactic of large scale quarantine is effective even with case numbers in the tens of thousands. Other countries may be able to deploy a similar tactic against their outbreaks should they occur.
 
@@ -87,6 +91,8 @@ While we would expect to see a flurry of research into such avenues regardless o
 Given that, in the H1N1 case, it was mere months between the first outbreaks outside of Mexico and declarations of pandemic, we think it’s very unlikely that a given treatment will arrive in time to prevent pandemic. **Our Bayesian update for this is 99:100.**
 
 # Posterior Probability
+
+**TODO: Recalculate this**
 
 | Prior odds | 5:4 | 2:1 | 1:2 |
 |--|--|--|--|
