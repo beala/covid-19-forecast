@@ -58,24 +58,32 @@ The contagion is now worldwide and there is more than an order of magnitude more
 **TODO: put an update on this.**
 
 ## Undetected cases
-Based on air travel estimates and Iran's extremely high reported CFRs, we previously believed there was evidence of undetected transmission. Since then the evidence has grown that even developed countries are not adequately detecting the spread of COVID-19. A research team led by Trevor Bedford [identified a single transmission chain](https://bedford.io/blog/ncov-cryptic-transmission/) that is estimated to have infected 570 people in Washington state. As of March 7th, the CDC had reportedly tested [1,583 people *total*](https://thehill.com/homenews/administration/486452-cdc-has-tested-1583-people-for-coronavirus), while South Korea has been testing roughly [10,000 people *per day*](https://www.cdc.go.kr/board/board.es?mid=&bid=0030). It has become clear that there are vast disparities between even developed countries in their ability to monitor the spread of COVID-19. We infer:
+Based on air travel estimates and Iran's extremely high reported CFRs, we previously believed there was evidence of undetected transmission. Since then the evidence has grown that even developed countries are not adequately detecting the spread of COVID-19. A research team led by Trevor Bedford [identified a single transmission chain](https://bedford.io/blog/ncov-cryptic-transmission/) that is estimated to have infected 570 people in Washington state. As of March 7th, the CDC had reportedly tested [1,583 people *total*](https://thehill.com/homenews/administration/486452-cdc-has-tested-1583-people-for-coronavirus), while South Korea has been testing roughly [10,000 people *per day*](https://www.cdc.go.kr/board/board.es?mid=&bid=0030). It has become clear that there are vast disparities between even developed countries in their ability to monitor the spread of COVID-19.
+
+This is especially worrying in the context of an exponentially growing outbreak. Delaying response by only a week can lead to twice as many cases, and quickly overwhelm a health system's ability to contact trace cases. Past a certain point, the only effective responses will be large scale social distancing, lockdowns, and quarantines, which are much more difficult to implement. We infer:
 
 1. That the number of confirmed cases reported by the WHO most likely significantly understates the spread of COVID-19.
 2. Lack of effective diagnostics will make it more difficult for countries to identify and respond to hotspots.
 3. Even if some countries like South Korea are able to effectively scale up their efforts to diagnose and contain the spread of COVID-19, they are still imperiled by a global spread of the disease in countries less able to respond.
+4. Given the exponential nature of an outbreak, delays of only days or weeks will make containment difficult or impossible.
 
 **TODO: put an update on this.**
 
 # Evidence against pandemic
-## The outbreak in China may be peaking
-The official numbers coming out of China suggest that the outbreak inside China may be peaking. If an outbreak inside China can be contained, that’s a signal that China’s tactic of large scale quarantine is effective even with case numbers in the tens of thousands. Other countries may be able to deploy a similar tactic against their outbreaks should they occur.
+## Mitigation measures in some countries have been effecitve
+The official numbers coming out of China suggest that the outbreak inside China has peaked. This is a signal that China’s tactic of large scale quarantine is effective even with case numbers in the tens of thousands. [The WHO has credited China](https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf) with averting potentially hundreds of thousands of additional cases, and has said the world needs to learn from China's response.
 
-That said, we have ample reason to be skeptical.
+![Graph of daily confirmed cases in China](china_daily_cases.png)
 
-- Given the political pressures to drive down the number of cases, and the constant changing case definitions, it’s hard to be sure the trend is real. We can’t rule out disinformation given the [political climate in China](https://www.latimes.com/world-nation/story/2020-02-11/china-coronavirus-peoples-war).
+That said, we have reason to be skeptical. 
 - Even if cases are brought to a very low number, China must at some point end the quarantine which could lead to a second wave. China must eliminate the virus completely for this to be effective.
+- It's unclear if these measures can be implemented elsewhere. In Wuhan, [people have been confined to their homes for weeks](https://www.nytimes.com/2020/03/07/world/asia/china-coronavirus-cost.html). As far as we know, these types of restrictions are unprecedented in places like the US.
 
-**We don’t see this as a likely way for the outbreak to end, but it may buy the world time to develop a vaccine, treatment, or better surveillance, so we give it a 4:5 update.**
+South Korea has also started to report declining numbers. This is a promising development, as South Korea's response has been less heavy handed than China's. That said, duplicating this response elsewhere will require scaling up testing capacity very quickly, and there is still the possibility of a [later resurgence](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30567-5/fulltext).
+
+![Graph of daily confirmed cases in South Korea](south_korea_daily_cases.png)
+
+**TODO: Update odds**
 
 ## Development of an effective vaccine or antiviral
 Given the possibility of pandemic, governments and private companies are incentivized to create vaccines and treatments. There are some potentially promising avenues:
@@ -89,6 +97,8 @@ While we would expect to see a flurry of research into such avenues regardless o
 [One report](https://academic.oup.com/biostatistics/article/20/2/273/4817524) estimates that 9.6% of Phase 1 trials will eventually be deemed safe and effective. There are > 120 clinical trials happening for COVID-19, so it is possible that some of the treatments will be effective. However, we have reasons to suspect that the success rate of these trials will be lower than standard Phase 1 base rates. Due to the desperate situation in China, where the vast majority of these trials are happening, it is plausible that many clinical trials are being conducted that would not have advanced to the clinical trial stage in other circumstances. Hence we should expect a lower probability that a given trial will succeed here, assuming say 1%. Additionally, for this to reduce the chance of pandemic, the successful trial would have to be a treatment that slows or stops the spread. The treatment would have to be manufactured on a large scale and distributed to many countries with varying quality of healthcare infrastructure, and the trials, manufacture, and distribution would have to happen before the outbreak of a pandemic in order to prevent one from occurring.
 
 Given that, in the H1N1 case, it was mere months between the first outbreaks outside of Mexico and declarations of pandemic, we think it’s very unlikely that a given treatment will arrive in time to prevent pandemic. **Our Bayesian update for this is 99:100.**
+
+**TODO: Update odds**
 
 # Posterior Probability
 
